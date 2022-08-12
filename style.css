@@ -14,28 +14,9 @@ body {
     background-position: center;
     z-index: 0;
     background-repeat: repeat-x;
-    animation: maing-bg 100s linear infinite;
 }
-@keyframes main-bg {
-0% {transform: translateX(0px);}
-100% {transform: translateX(-4000px);}    
-}
+
 /* road */
-.road-2 {
-    height: 160px;
-    width: 500%;
-    margin: 0;
-    padding: 0;
-    background-image: url(..//animation/images/road2.jpeg);
-    bottom: 0px;
-    right: 0;
-    left: 0;
-    position: absolute;
-    display: block;
-    z-index: 1;
-    background-repeat: repeat-x;
-    animation: road 5s linear infinite;
-}
 .road {
     height: 135px;
     width: 500%;
@@ -67,7 +48,7 @@ body {
     right: 0;
     z-index: 3;
     background-repeat: repeat-x;
-    animation: building 50s linear infinite;
+    animation: building 100s linear infinite;
 }
 @keyframes building {
     0% {transform: translateX(0px);}
